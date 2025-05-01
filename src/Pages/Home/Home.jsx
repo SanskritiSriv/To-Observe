@@ -235,12 +235,12 @@ const RenderForms = ({ form }) => {
 				>
 					Submit
 				</button>
-				<a
-					href='/dashboard'
+				<Link
+					to='/dashboard'
 					className='note'
 				>
 					Already an partner? Click here to see your dashboard
-				</a>
+				</Link>
 			</form>
 		);
 	}
